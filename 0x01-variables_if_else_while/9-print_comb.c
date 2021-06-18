@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - printing numbers 
+ * main - printing numbers
  * Description: using the main function
  * this program prints numbers
  * Return: 0
