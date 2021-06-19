@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.>
+#include <unistd.h>
 
 /**
  * main - use write function to print string
