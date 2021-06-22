@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char output[] = "Holberton";
+	char output[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 't'};
 	unsigned int i = 0;
 
 	while (i < sizeof(output))
