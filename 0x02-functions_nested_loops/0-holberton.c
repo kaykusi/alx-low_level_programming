@@ -12,7 +12,7 @@ int main(void)
 	char output[] = "Holberton";
 	unsigned int i = 0;
 
-	while(i < sizeof(output))
+	while (i < sizeof(output))
 	{
 		_putchar(output[i]);
 	}
