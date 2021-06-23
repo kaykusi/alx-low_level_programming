@@ -1,15 +1,15 @@
 #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
- * Description: prints lower case alphabets
+ * print_alphabet - prints alphabets in lower case.
+ *
  * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
 	char l = 'a';
-	
+
 	while (l <= 'z')
 	{
 		_putchar(l);
