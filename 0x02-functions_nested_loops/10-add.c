@@ -2,11 +2,12 @@
 
 /**
  * add - funtion to add two integers
- * @int: integer to take input
+ * @a: integer to take input
+ * @b: integer to take input
  * Return: Always 0.
  */
 
-int add(int, int)
+int add(int a, int b)
 {
 	int sum = a + b;
 
