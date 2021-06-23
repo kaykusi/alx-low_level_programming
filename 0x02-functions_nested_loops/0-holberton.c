@@ -9,12 +9,13 @@
 
 int main(void)
 {
-	char output[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 't'};
+	char output[] = "Holberton";
 	unsigned int i = 0;
 
 	while (i < sizeof(output))
 	{
 		_putchar(output[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
