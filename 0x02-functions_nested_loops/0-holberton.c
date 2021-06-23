@@ -11,8 +11,9 @@ int main(void)
 {
 	char output[] = "Holberton";
 	int i = 0;
+	int length = sizeof(output)/sizeof(output[0];
 
-	while (i < sizeof(output))
+	while (i < length)
 	{
 		_putchar(output[i]);
 		i++;
