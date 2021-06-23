@@ -10,7 +10,7 @@
 int main(void)
 {
 	char output[] = "Holberton";
-	unsigned int i = 0;
+	int i = 0;
 
 	while (i < sizeof(output))
 	{
