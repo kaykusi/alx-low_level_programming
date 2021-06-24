@@ -18,15 +18,15 @@ void print_square(int size)
 
 			while (check2 < size)
 			{
-				putchar(35);
+				_putchar(35);
 				check2++;
 			}
 			check++;
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 	else
 	{
-		putchar('\n');
+		_putchar('\n');
 	}
 }
