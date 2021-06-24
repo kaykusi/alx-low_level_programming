@@ -19,17 +19,17 @@ void print_diagonal(int n)
 			{
 				if (check2 == check)
 				{
-					putchar(92);
+					_putchar(92);
 				}
 				else
 				{
-					putchar(' ');
+					_putchar(' ');
 
 				}
 				check2++;
 			}
-			putchar('\n');
+			_putchar('\n');
 			check++;
 		}
-		putchar('\n');
+		_putchar('\n');
 }
