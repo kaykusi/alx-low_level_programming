@@ -11,11 +11,11 @@ void print_diagonal(int n)
 
 		int check = 0;
 
-		while (check < a)
+		while (check < n)
 		{
 			int check2 = 0;
 
-			while (check2 < a)
+			while (check2 < n)
 			{
 				if (check2 == check)
 				{
