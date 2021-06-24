@@ -1,7 +1,6 @@
 #ifndef _HOLBERTON_H
 #define _HOLBERTON_H
 
-#include <stdio.h>
 /*
  * Structs, enums and unions definitions
  * Typedefs

@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -14,22 +15,22 @@ int main(void)
 		if (count % 3 == 0 && count % 5 == 0)
 		{
 			printf("fizzbuzz");
-			_putchar(' ');
+			printf(" ");
 		}
 		else if (count % 3 == 0)
 		{
 			printf("fizz");
-			_putchar(' ');
+			prinrf(" ");
 		}
 		else if (count % 5 == 0)
 		{
 			printf("buzz");
-			_putchar(' ');
+			printf(" ");
 		}
 		else
 		{
 			printf("%d", count);
-			_putchar(' ');
+			printf(" ");
 		}
 		count++;
 	}
