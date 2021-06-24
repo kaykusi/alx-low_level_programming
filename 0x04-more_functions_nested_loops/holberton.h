@@ -1,5 +1,5 @@
-#ifndef "HOLBERTON_H"
-#define "HOLBERTON_H"
+#ifndef _HOLBERTON_H
+#define _HOLBERTON_H
 
 /*
  * Structs, enums and unions definitions
@@ -9,5 +9,6 @@
 
 int _putchar(char c);
 int _isupper(int c);
+int _isdigit(int c);
 
 #endif /* _HOLBERTON_H_ */
