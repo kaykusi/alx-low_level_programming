@@ -10,14 +10,14 @@ int main(void)
 	int i = 2, number;
 
 	printf("Enter number for prime factorization: ");
-	scanf("%d", number);
+	scanf("%d", &number);
 
 	while (number != 1)
 	{
 		while (number % i == 0)
 		{
-			n /= i;
-			if (n == 1)
+			number /= i;
+			if (number == 1)
 			{
 				printf("%d", i);
 				printf("\n");
