@@ -20,7 +20,7 @@ int main(void)
 		else if (count % 3 == 0)
 		{
 			printf("fizz");
-			prinrf(" ");
+			printf(" ");
 		}
 		else if (count % 5 == 0)
 		{
