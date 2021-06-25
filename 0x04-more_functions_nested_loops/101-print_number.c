@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - function to print numbers
- * @c: integer to be checked
+ * @n: integer to be checked
  * Return: Always is 0
  */
 
