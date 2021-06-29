@@ -8,13 +8,13 @@
 
 void rev_string(char *s)
 {
-	int count = 0;
+	int rev, count = 0;
 
 	while (s[count] != '\0')
 	{
 		count++;
 	}
-	int rev = count - 1;
+	rev = count - 1;
 
 	while (s[rev] != '\0')
 	{
