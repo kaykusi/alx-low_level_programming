@@ -2,18 +2,18 @@
 
 /**
  * string_toupper - function to change string uppercase
- * @upp: char pointer
+ * @a: char pointer
  * Return: value of char
  */
 
-char *string_toupper(char *upp)
+char *string_toupper(char *a)
 {
-	int c;
+	int c = 0;
 
-	while (upp[c] != '\0')
+	while (a[c] != '\0')
 	{
-		if ((upp[c] >= 97) && (upp[c] <= 122))
-			upp[c] = upp[c] - 32;
+		if ((a[c] >= 97) && (a[c] <= 122))
+			a[c] = a[c] - 32;
 	}
-	return (upp);
+	return (a);
 }
