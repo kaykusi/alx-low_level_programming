@@ -8,14 +8,14 @@
 
 void puts2(char *str)
 {
-	int count, scan = 0;
+	int count = 0, b;
 
 	while (str[count] != '\0')
 	{
 		count++;
 	}
 
-	for (b = 0; b < a; b++)
+	for (b = 0; b < count; b++)
 	{
 		if (b % 2 == 0)
 		{
