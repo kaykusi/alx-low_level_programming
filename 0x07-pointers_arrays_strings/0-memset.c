@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _memser - function that fills up memory
+ * _memset - function that fills up memory
  * @s: char pointer
  * @b: char value
  * @n: integer value
@@ -17,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[count] = b;
 		count++;
 	}
-	return(s);
+	return (s);
 }
