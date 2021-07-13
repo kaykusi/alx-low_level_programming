@@ -16,7 +16,7 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	while (str[i])
+	while (str[i] != '\0')
 	{
 		len++;
 	}
@@ -28,7 +28,8 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	i = 0;
-	while (str[i])
+
+	while (str[i] != '\0')
 	{
 		m[i] = str[i];
 		i++;
