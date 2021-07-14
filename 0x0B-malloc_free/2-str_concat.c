@@ -17,31 +17,27 @@ char *str_concat(char *s1, char *s2)
 	{
 		s1 = s2 = "";
 	}
+	while (s1[i] || s2[i])
+	{
+		len++;
+		i++;
+	}
+	mul = malloc(sizeof(char) * len);
+
+	if (mul != NULL)
+	{
+		for (i = 0; s1[i]; i++)
+		{
+			mul[concat++] = s1[i];
+		}
+		for (i = 0; s2[i]; i++)
+		{
+			mul[concat++] = s2[i];
+		}
+		return (mul);
+	}
 	else
 	{
-		while (s1[i] || s2[i])
-		{
-			len++;
-			i++;
-		}
-		mul = malloc(sizeof(char) * len);
-
-		if (mul != NULL)
-		{
-			for (i = 0; s1[i]; i++)
-			{
-				mul[concat++] = s1[i];
-			}
-
-			for (i = 0; s2[i]; i++)
-			{
-				mul[concat++] = s2[i];
-			}
-			return (mul);
-		}
-		else
-		{
-			return (NULL);
-		}
+		return (NULL);
 	}
 }
