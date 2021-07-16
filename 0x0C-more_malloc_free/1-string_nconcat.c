@@ -31,15 +31,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (strcat == NULL)
 		return (NULL);
 
-		len = 0;
+	len = 0;
 
-		for (i = 0; s1[i]; len++, i++)
-			strcat[len] = s1[i];
+	for (i = 0; s1[i]; len++, i++)
+		strcat[len] = s1[i];
 
-		for (i = 0; s2[i] && i < n; len++, i++)
-			strcat[len] = s2[i];
+	for (i = 0; s2[i] && i < n; len++, i++)
+		strcat[len] = s2[i];
 
-		strcat[len] = '\0';
+	strcat[len] = '\0';
 
-		return (strcat);
+	return (strcat);
 }
