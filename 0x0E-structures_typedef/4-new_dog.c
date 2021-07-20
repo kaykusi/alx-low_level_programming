@@ -11,7 +11,7 @@ int _strlen(char *arr)
 {
 	int len = 0;
 
-	while (arr[len])
+	while (arr[len] != '\0')
 	{
 		len++;
 	}
@@ -30,7 +30,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int count = 0;
 
-	while (src[count])
+	while (src[count] != '\0')
 	{
 		dest[count] = src[count];
 		count++;
@@ -51,13 +51,13 @@ char *_strcpy(char *dest, char *src)
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t doggie;
+	dog_t *doggie;
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
 	doggie = malloc(sizeof(dog_t));
-	if (doggo == NULL)
+	if (doggie == NULL)
 		return (NULL);
 
 	doggie->name = malloc(sizeof(char) * (_strlen(name) + 1));
