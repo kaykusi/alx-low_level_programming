@@ -12,7 +12,9 @@ int _strlen(char *arr)
 	int len = 0;
 
 	while (arr[len])
+	{
 		len++;
+	}
 
 	return (len);
 }
@@ -50,6 +52,9 @@ char *_strcpy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t doggie;
+
+	if (name == NULL || age < 0 || owner == NULL)
+		return (NULL);
 
 	doggie = malloc(sizeof(dog_t));
 	if (doggo == NULL)
