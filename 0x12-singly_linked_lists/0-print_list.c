@@ -3,7 +3,9 @@
 /**
  * print_list - function that prints all elements
  * @h: the list_t list
- * Return: Thenumber
+ * Return: The number of nodes
+ */
+
 size_t print_list(const list_t *h)
 {
 	size_t nodes = 0;
