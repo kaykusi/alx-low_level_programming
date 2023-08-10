@@ -14,5 +14,5 @@ int main(void)
 	puts("Size of a long long int: " + sizeof(long long int) - 1);
 	puts("Size of a float: " + sizeof(float) - 1);
 
-        return (0);
+	return (0);
 }
