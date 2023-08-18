@@ -72,4 +72,14 @@ void print_most_numbers(void);
  */
 
 void more_numbers(void);
+
+/**
+ * print_line - prints a line n'_' long
+ *
+ * @n: number of times to print '_'
+ *
+ * Return: always void
+ */
+
+void print_line(int n)
 #endif
