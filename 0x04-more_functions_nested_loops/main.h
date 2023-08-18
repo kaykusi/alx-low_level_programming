@@ -81,5 +81,5 @@ void more_numbers(void);
  * Return: always void
  */
 
-void print_line(int n)
+void print_line(int n);
 #endif
