@@ -102,4 +102,14 @@ void print_diagonal(int n);
  */
 
 void print_square(int size);
+
+/**
+ * print_triangle - prints a triangle
+ *
+ * @size: sizexsize right triangle
+ *
+ * Return: always void
+ */
+
+void print_triangle(int size);
 #endif
