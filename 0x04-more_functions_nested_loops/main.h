@@ -92,4 +92,14 @@ void print_line(int n);
  */
 
 void print_diagonal(int n);
+
+/**
+ * print_square - prints an nxn square
+ *
+ * @size: length & width of square
+ *
+ * Return: always void
+ */
+
+void print_square(int size);
 #endif
