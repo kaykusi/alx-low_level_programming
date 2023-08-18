@@ -11,9 +11,9 @@
 
 void print_numbers(void)
 {
-	int i = 48; /* ascii: 0 */
+	int i = 48;
 
-	while (i <= 57) /* ascii: 9 */
+	while (i <= 57)
 	{
 		_putchar(i++);
 	}
