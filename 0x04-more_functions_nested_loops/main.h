@@ -25,10 +25,19 @@ int _isupper(int c);
  * _isdigit - checks for a digit 0 to 9
  *
  * @c: input argument
- * Return: 1 if the character is uppercase, 0 if lowercase
+ * Return: 1 if the digit is between 0 and 9, 0 if not
  *
  */
 
 int _isdigit(int c);
 
+/**
+ * mul - multiply two digits
+ *
+ * @c: input argument
+ * Return: the multplied number
+ *
+ */
+
+int mul(int a, int b);
 #endif
