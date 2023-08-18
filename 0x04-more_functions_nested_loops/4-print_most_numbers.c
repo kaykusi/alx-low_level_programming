@@ -12,14 +12,16 @@
 
 void print_most_numbers(void)
 {
-	int i = 48;
+	int i = 48; /* ascii: 0 */
 
-	while (i <= 57)
+	while (i <= 57) /* ascii: 9 */
 	{
-		if (i != 50 || i != 52)
+		if (i == 50 || i == 52) /* skip 2 & 4 */
 		{
-			_putchar(i++);
+			i++;
+			continue;
 		}
+		_putchar(i++);
 	}
 	_putchar('\n');
 }
