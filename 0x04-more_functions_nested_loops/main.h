@@ -51,5 +51,5 @@ int mul(int a, int b);
  *
  */
 
-void print_numbers(void)
+void print_numbers(void);
 #endif
