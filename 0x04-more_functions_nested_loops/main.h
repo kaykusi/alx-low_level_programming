@@ -64,4 +64,12 @@ void print_numbers(void);
  */
 
 void print_most_numbers(void);
+
+/**
+ * more_numbers - print 0..14 x 10
+ *
+ * Return: always void
+ */
+
+void more_numbers(void);
 #endif
