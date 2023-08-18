@@ -82,4 +82,14 @@ void more_numbers(void);
  */
 
 void print_line(int n);
+
+/**
+ * print_diagonal - prints a diagonal line n long
+ *
+ * @n: length of line
+ *
+ * Return: always void
+ */
+
+void print_diagonal(int n);
 #endif
