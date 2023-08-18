@@ -34,7 +34,8 @@ int _isdigit(int c);
 /**
  * mul - multiply two digits
  *
- * @c: input argument
+ * @a: input argument
+ * @b: input argument
  * Return: the multplied number
  *
  */
